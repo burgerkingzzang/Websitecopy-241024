@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+/* ========== footer CSS ========== */
+
+
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{box-sizing: border-box;}
+  a{color: inherit;  text-decoration: none;}
+  body{margin: 0;  }
+  h1,h2,h3,h4,h5,h6{margin: 0;font-weight: 400;font-size: 1rem;}
+  ul, li{list-style: none; margin: 0;padding: 0;}
+
+  .footer-container {
+    width: 80%;  /* 컨테이너 너비를 전체 너비의 80%로 설정 */
+    margin: 0 auto;  /* 좌우 자동 마진을 설정하여 중앙 정렬 */
+    padding: 20px;   /* 적절한 여백 추가 (필요시 조정 가능) */
+    box-sizing: border-box;  /* padding을 포함하여 크기 계산 */
+  }
+
+/* footer top */
+
+.footer-container {
+    background: #f5f7fa;
+    width:80%;  /* 컨테이너 너비를 전체 너비의 80%로 설정 */
+    margin: 0 auto;  /* 좌우 자동 마진을 설정하여 중앙 정렬 */
+    padding: 20px;   /* 적절한 여백 추가 (필요시 조정 가능) */
+    box-sizing: border-box;  /* padding을 포함하여 크기 계산 */
+}
+.footer-top {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 10px 20px;  
+    border-top: 1px solid #5f5f5f; 
+    border-bottom: 1px solid #5f5f5f;         
+}
+.footer-top-text {
+    display: flex;
+    border: 4px solid purple;
+    
+}
+.footer-top-text a {
+    padding-right: 20px;
+}
+.footer-top-social {
+    display: flex;
+    background: gray;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+}
+.footer-top-social a{
+    background: rgb(100, 187, 139);
+    padding: 5px;
+}
+.footer-top-social a {
+    background: pink;
+    display: inline-block;
+    background-color: #f2f2f2;
+    border-radius: 50%; 
+    padding: 10px; 
+ }
+ .footer-top-social a img {
+    width: 20px; /* 아이콘 크기 */
+    height: 20px; /* 아이콘 크기 */
+ }
+
+
+ /* footer-main */
+ .footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    
+ }
+ .footer-main-logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-left:;
+    border: 1 solid #000;
+ }
+ .footer-main-logo1 {
+    border: 1px solid #000;
+ }
+ .footer-main-logo2 {
+    border: 1px solid #000;
+ }
+ .footer-main-left {
+    width: 40%;
+    height: 100%;
+    border: 4px solid #2f9163;
+    padding-left: 10px;
+ }
+ .footer-main-center{
+    width: 30%;
+    height: 100%;
+    border: 4px solid #2016ad;
+    padding-left: 10px;
+ }
+ .footer-main-right {
+    width: 30%;
+    height: 100%;
+    border: 4px solid #aa2121;
+ }
+
+
+/* footer-bottom */
+.footer-bottom {
+    border: 4px solid pink;
+    color: #333333;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-bottom img {
+    width: 10%
+
+}
