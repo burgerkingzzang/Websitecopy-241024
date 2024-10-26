@@ -27,15 +27,19 @@ ul, li{
   margin: 0;
   padding: 0;
 }
+/* 위쪽 css 초기 reset css */
 
+/* 메인 큰 프레임 가로 100%지정 */
 div.main-container{
   width: 100%;
 }
+/* 베너 부분 큰 프레임 색상 지정 */
 div.main-container .bigswipper{
   border: 1px solid #000;
   background-color: #D8E4F2;
    
 }
+
 div.main-container section.in{
   display: flex;
   width: 100%;
@@ -43,7 +47,7 @@ div.main-container section.in{
  
 }
 .bigswipper .banner{
-  border: 1px solid #000;
+
   width: 90%;
   display: flex;
   justify-content: space-evenly;
@@ -94,7 +98,7 @@ div.main-container section.in{
 }
 .bigswipper .banner .text a{
   display: inline-flex;
-  border: 1px solid #000;
+
   margin-top: 40px;
   width: 70%;
   background: #246beb;
@@ -108,18 +112,42 @@ div.main-container section.in{
 }
 
 
-div.swipper{
+section.swipper{
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 
 }
-div.swipper .swipper-move{
-  width: 150px;
-  border: 1px solid #000;
+
+section.swipper .swipper-move{
+  width: 130px;
+
   border-radius: 30px;
   background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+
 }
-div.swipper button{
+
+section.swipper .swipper-move span{
+display: block;
+width: 15px;
+height: 10px;
+margin-right: 5px;
+border-radius: 10px;
+background: #000;
+opacity: 0.2;
+}
+section.swipper .swipper-move span.dif{
+  width: 20px;
+  background: #003675;
+  opacity: 1;
+}
+section.swipper button{
+  background: #fff;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50px;
@@ -132,3 +160,4 @@ div.swipper button .left{
 div.swipper button .right{
   margin-left: 10px;
 }
+
