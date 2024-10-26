@@ -29,6 +29,36 @@ ul, li{
 }
 /* 위쪽 css 초기 reset css */
 
+header .top-title {
+  border: 2px solid red;
+ 
+}
+/* 2번째 헤더 */
+header .middle-title {
+  border: 2px solid green
+}
+/* 2-1 */
+/* header .middle-title{
+
+} */
+/* 2-2 */
+/* header .middle-title{
+
+} */
+/* 2-3 */
+/* header .middle-title{
+
+} */
+
+
+
+
+/* 3번째 헤더 */
+header .bottom-title{
+border: 2px solid orange;
+
+}
+
 /* 메인 큰 프레임 가로 100%지정 */
 div.main-container{
   width: 100%;
@@ -140,6 +170,7 @@ margin-right: 5px;
 border-radius: 10px;
 background: #000;
 opacity: 0.2;
+cursor: pointer;
 }
 section.swipper .swipper-move span.dif{
   width: 20px;
@@ -152,6 +183,7 @@ section.swipper button{
   height: 2.5rem;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
 
 }
 div.swipper button .left{
@@ -161,3 +193,69 @@ div.swipper button .right{
   margin-left: 10px;
 }
 
+nav.main-sector{
+  
+  margin-top: 40px;
+}
+
+nav.main-sector section.menu-swipper{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+nav.main-sector section.menu-swipper a{
+  width: 160px;
+  margin: 0 10px 0 10px;
+  background: #f3f3f6;
+  border-radius: 10px;
+  
+}
+nav.main-sector section.menu-swipper span{
+
+  width: 100%;
+  height: 60px;
+  display: flex;
+  
+  
+}
+nav.main-sector section.menu-swipper span i{
+font-size: 40px;
+opacity: 0.5;
+text-align: center;
+align-content: center;
+
+width: 100%;
+}
+
+nav.main-sector section.menu-swipper p{
+  width: 100%;
+  height: 70px;
+  font-size: 1.2rem;
+
+  text-align: center;
+
+}
+nav.main-sector section.menu-swipper button{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  border: 1px solid #bcbcbc;
+  background: #fff;
+  cursor: pointer;
+}
+
+nav.main-sector section.menu-swipper button.left{
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translate(-50% ,-50%);
+}
+
+nav.main-sector section.menu-swipper button.right{
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translate(-50% ,-50%);
+  
+}
