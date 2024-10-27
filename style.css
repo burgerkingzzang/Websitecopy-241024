@@ -1,0 +1,82 @@
+@import url(common.css);
+/* 1번째 헤더 */
+header{
+  background: white;
+
+}
+header .title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 2px solid red;
+height: 30px;
+background: #173b61;;
+margin: 0 auto;
+color: white;
+width: 100%;
+font-size: 12px;
+
+}
+header .title nav{
+ border: 3px solid green;
+
+} 
+
+
+/* 2번째 헤더 */
+header .main-title{
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+
+}
+
+.main-title .logo{
+
+width: 15%;
+cursor:pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.main-title nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-title .gnb{
+
+  width: 75%;
+font-weight: bold;  }
+
+.main-title .gnb li{
+margin: 0 20px;  
+
+
+}
+
+
+
+
+.main-title nav ul{
+  display: flex;
+
+
+}
+
+.main-title .snb ul li{
+  border: 2px dashed black;  
+  
+}
+
+.main-title .snb{
+
+  width: 10%;
+}
+.main-title .snb .icons{
+  margin-left: 18px;
+  margin-right: 10;
+  border: 2px solid red;
+}
+
