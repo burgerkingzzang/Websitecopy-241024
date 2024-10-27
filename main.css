@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 *{
@@ -29,48 +29,129 @@ ul, li{
 }
 /* 위쪽 css 초기 reset css */
 
+
+
 header .top-title {
   border: 2px solid red;
- 
+  background: #edf1f5;
 }
+header .top-title-banner{
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+  }
 /* 2번째 헤더 */
 header .middle-title {
-  border: 2px solid green
+  border: 2px solid green;
+  background: #fff;
 }
 /* 2-1 */
-/* header .middle-title{
+header .middle-title-nav{
+  border: 1px solid #000;
+  
+} 
+header .middle-title-nav ul{
+  display: flex;
+  justify-content: right;
+    
+}
 
-} */
+header .middle-title-nav li{
+  display: flex;
+  height: 20px;
+  margin-right: 10px;
+  padding-right: 5px;
+  border-right: 1px solid gray;
+  align-items: center;
+  
+
+}
+header .middle-title-nav li i{
+  margin-left: 5px;
+}
+header .middle-title-nav li.border-n{
+  border: none;
+}
 /* 2-2 */
-/* header .middle-title{
-
-} */
+header section.head-in{
+  display: flex;
+} 
+header section.head-in nav.middle-title-logo{
+  flex:1;
+  display: flex;
+}
 /* 2-3 */
-/* header .middle-title{
+header section.head-in nav.middle-title-search{
+  flex:1;
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+  border: 1px solid #000;
+}
+header section.head-in nav.middle-title-search .merge{
+  width: 50%;
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+  }
+header section.head-in nav.middle-title-search input{
+display: flex;
+width: 100%;
+border-radius: 50px;
+border: 2px solid #246beb;
+font-size: 1.1rem;
 
-} */
+} 
 
+header section.head-in nav.middle-title-search .merge i{
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50% ,-50%);
+  
+}
+header section.head-in nav.middle-title-search .sign-in{
 
-
+  display: flex;
+  align-items: center;
+  width: 28%;
+  justify-content: right;
+}
+header section.head-in nav.middle-title-search .sign-in li{
+font-size: 20px;
+margin-right: 10px;
+}
 
 /* 3번째 헤더 */
 header .bottom-title{
 border: 2px solid orange;
 
 }
+header .bottom-title nav.gnb{
+  background: #fff;
+}
+
+header .bottom-title nav.gnb ul{
+  display: flex;
+  align-items: center;
+
+}
+
 
 /* 메인 큰 프레임 가로 100%지정 */
-div.main-container{
+main.main-container{
   width: 100%;
 }
 /* 베너 부분 큰 프레임 색상 지정 */
-div.main-container .bigswipper{
+main.main-container .bigswipper{
   border: 1px solid #000;
   background-color: #D8E4F2;
    
 }
 
-div.main-container section.in{
+main.main-container section.in{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -95,13 +176,13 @@ div.main-container section.in{
 }
 .bigswipper .banner button.left{
   position: absolute;
-  left: 15%;
+  left: 5%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 .bigswipper .banner button.right{
   position: absolute;
-  right: 10%;
+  right: 5%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
