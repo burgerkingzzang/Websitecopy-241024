@@ -15,6 +15,7 @@ a{
 
 body{
   margin: 0;
+height: 2000px;
 }
 h1,h2,h3,h4,h5,h6{
   margin: 0;
@@ -32,8 +33,10 @@ ul, li{
 
 
 header .top-title {
-  border: 2px solid red;
+
   background: #edf1f5;
+  padding-bottom: 5px;
+  
 }
 header .top-title-banner{
     width: 90%;
@@ -43,12 +46,13 @@ header .top-title-banner{
   }
 /* 2번째 헤더 */
 header .middle-title {
-  border: 2px solid green;
+  padding: 5px 0 20px 0;
   background: #fff;
+
 }
 /* 2-1 */
 header .middle-title-nav{
-  border: 1px solid #000;
+
   
 } 
 header .middle-title-nav ul{
@@ -87,11 +91,11 @@ header section.head-in nav.middle-title-search{
   display: flex;
   justify-content: right;
   margin-right: 20px;
-  border: 1px solid #000;
+
 }
 header section.head-in nav.middle-title-search .merge{
   width: 50%;
-  border: 1px solid #000;
+
   display: flex;
   position: relative;
   }
@@ -126,17 +130,37 @@ margin-right: 10px;
 
 /* 3번째 헤더 */
 header .bottom-title{
-border: 2px solid orange;
 
+padding-bottom: 10px;
+border-top: 1px solid #000;
+margin:15px 0 15px 0;
+padding-top: 20px;
 }
 header .bottom-title nav.gnb{
   background: #fff;
+  width: 100%;
+  
 }
 
 header .bottom-title nav.gnb ul{
   display: flex;
   align-items: center;
 
+}
+header .bottom-title nav.gnb ul li{
+  display: flex;
+ 
+  font-size: 30px;
+  margin-right: 15px;
+  color: #555555;
+  cursor: pointer;
+}
+header .bottom-title nav.gnb ul li i{
+  margin-left: 10px;
+}
+header .bottom-title nav.gnb ul li:hover{
+  color: #003675;
+  border-bottom: 5px solid #003675
 }
 
 
@@ -146,7 +170,7 @@ main.main-container{
 }
 /* 베너 부분 큰 프레임 색상 지정 */
 main.main-container .bigswipper{
-  border: 1px solid #000;
+
   background-color: #D8E4F2;
    
 }
@@ -277,12 +301,18 @@ div.swipper button .right{
 nav.main-sector{
   
   margin-top: 40px;
+ 
+  display: flex;
+  flex-direction: column;
+
 }
 
 nav.main-sector section.menu-swipper{
   display: flex;
   justify-content: center;
   position: relative;
+
+
 
 }
 nav.main-sector section.menu-swipper a{
@@ -293,7 +323,7 @@ nav.main-sector section.menu-swipper a{
   
 }
 nav.main-sector section.menu-swipper span{
-
+ 
   width: 100%;
   height: 60px;
   display: flex;
@@ -339,4 +369,30 @@ nav.main-sector section.menu-swipper button.right{
   right: 50px;
   transform: translate(-50% ,-50%);
   
+}
+nav.main-sector section.menu-swipper section.bullet-box{
+
+  border: 1px solid blue;
+  
+}
+nav.main-sector div.swipper-bullet{
+  padding: 20px;
+ 
+  display: flex;
+  justify-content: center;
+}
+nav.main-sector div.swipper-bullet span{
+ 
+width: 15px;
+height: 10px;
+margin-right: 5px;
+border-radius: 10px;
+background: #000;
+opacity: 0.2;
+cursor: pointer;
+}
+nav.main-sector div.swipper-bullet span.dif{
+width: 20px;
+background: #003675;
+opacity: 1;
 }
