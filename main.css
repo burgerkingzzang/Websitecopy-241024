@@ -1,16 +1,13 @@
-@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-*{
-  box-sizing: border-box;
+section.main-container {
+background-color: white;
+color: black;
+padding: 100px 0;
+height: 800px;
 
 }
 
-a{
-  color: inherit;
-  text-decoration: none;
-}
+
 body{
   margin: 0;
 }

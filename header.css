@@ -2,13 +2,13 @@
 /* 1번째 헤더 */
 header{
   background: white;
-
+color: black;
 }
 header .title{
 display: flex;
 justify-content: space-between;
 align-items: center;
-border: 2px solid red;
+/* border: 2px solid red; */
 height: 30px;
 background: #173b61;;
 margin: 0 auto;
@@ -18,7 +18,7 @@ font-size: 12px;
 
 }
 header .title nav{
- border: 3px solid green;
+ /* border: 3px solid green; */
 
 } 
 
@@ -55,10 +55,6 @@ margin: 0 20px;
 
 
 }
-
-
-
-
 .main-title nav ul{
   display: flex;
 
@@ -73,10 +69,17 @@ margin: 0 20px;
 .main-title .snb{
 
   width: 10%;
+ 
+  
 }
 .main-title .snb .icons{
-  margin-left: 18px;
-  margin-right: 10;
-  border: 2px solid red;
+   width: 100%;
+   height: 100%;
+  padding-left: 60px;
+  padding-top: 20px;
+  
 }
-
+.main-title .snb .icons .icon-menu{
+  justify-content: stretch;
+  
+}
