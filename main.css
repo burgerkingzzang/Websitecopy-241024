@@ -340,7 +340,7 @@ nav.main-sector section.menu-swipper{
 
 }
 nav.main-sector section.menu-swipper a{
-  width: 130px;
+  width: 150px;
   margin: 0 10px 0 10px;
   background: #f3f3f6;
   border-radius: 10px;
@@ -366,7 +366,7 @@ width: 100%;
 nav.main-sector section.menu-swipper p{
   width: 100%;
   height: 70px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
   text-align: center;
 
@@ -383,14 +383,14 @@ nav.main-sector section.menu-swipper button{
 nav.main-sector section.menu-swipper button.left{
   position: absolute;
   top: 50%;
-  left:15%;
+  left:13%;
   transform: translate(-50% ,-50%);
 }
 
 nav.main-sector section.menu-swipper button.right{
   position: absolute;
   top: 50%;
-  right:13%;
+  right:10%;
   transform: translate(-50% ,-50%);
   
 }
