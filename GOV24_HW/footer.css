@@ -1,0 +1,195 @@
+/* ========== footer CSS ========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+   font-size: 9px;
+}
+
+*{box-sizing: border-box;}
+  a{color: inherit;  text-decoration: none;}
+  body{margin: 0;  }
+  h1,h2,h3,h4,h5,h6{margin: 0;font-weight: 400;font-size: 1rem;}
+  ul, li{list-style: none; margin: 0;padding: 0;}
+
+  .footer-container {
+    background: #f5f7fa;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+  
+a {
+    text-decoration: none; /* 기본 상태에서는 밑줄을 없앰 */
+    font-weight: normal;   /* 기본 상태에서는 글씨 굵기를 일반적으로 설정 */
+    cursor: default;       /* 기본 상태에서는 기본 커서를 사용 */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* 마우스를 올리면 밑줄이 생김 */
+    font-weight: bold;          /* 마우스를 올리면 글씨가 굵어짐 */
+    cursor: pointer;            /* 마우스를 올리면 손모양 커서로 변경 */
+  }
+
+/* footer top */
+
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 10px 20px;  
+    border-top: 1px solid #5f5f5f; 
+    border-bottom: 1px solid #5f5f5f;        
+    margin-bottom: 20px; 
+}
+.footer-top-text {
+    display: flex;
+    /* border: 4px solid purple; */
+}
+.footer-top-text a {
+    padding-right: 20px;
+}
+
+.footer-top-text a {
+    padding-right: 30px;
+    /* border: 1px solid #000; */
+}
+.footer-top-text .footer-top1 {
+    color: #006ae6;
+}
+.footer-top-social {
+    display: flex;
+    /* background: gray; */
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+}
+.footer-top-social a{
+    background: rgb(100, 187, 139);
+    padding: 5px;
+}
+.footer-top-social a {
+    background: pink;
+    display: inline-block;
+    background-color: #EDEDED;
+    border-radius: 50%; 
+    padding: 10px; 
+ }
+ .footer-top-social a img {
+    width: 20px; /* 아이콘 크기 */
+    height: 20px; /* 아이콘 크기 */
+    /* background: #000; */
+ }
+
+
+ /* footer-main */
+ .footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    
+ }
+ .footer-main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    /* border: 1px solid #000; */
+    align-self: flex-start;
+ }
+ .footer-main-logo1 {
+    border: 1px solid #000;
+ }
+ .footer-main-logo2 {
+    border: 1px solid #000;
+ }
+ .footer-main-left {
+    width: 40%;
+    height: 100%;
+    /* border: 4px solid #2f9163; */
+    padding-left: 10px;
+ }
+ .footer-main-left p {
+    font-size: 20px;
+    /* border: 1px solid #000; */
+    padding-bottom: 10px;
+ }
+ .footer-main-left p .a02 {
+    color: #e3412f;
+ }
+ .footer-main-left p strong {
+    color: #000;
+    font-weight: bold;
+
+ }
+ .footer-main-left ul li {
+    /* border: 1px solid red; */
+    padding-bottom: 10px;
+    color: #666;
+    font-weight: 500;
+ }
+ .footer-main-left ul li span {
+    font-weight: bold;
+ }
+ .footer-main-center{
+    width: 30%;
+    height: 100%;
+    /* border: 4px solid #2016ad; */
+    padding-left: 10px;
+ }
+ .footer-main-center p {
+    /* border: 1px solid #000; */
+    padding: 15px;
+ }
+ .footer-main-center .footer-center1 {
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .footer-main-center .footer-center2 {
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .footer-main-center .footer-center3 {
+    font-size: 20px;
+    color: #666;
+    font-weight: 550;
+ }
+ .footer-main-center .footer-center3 span {
+    color: #e3412f;
+ }
+ .footer-main-right {
+    color: #666;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 550;
+    /* border: 4px solid #aa2121; */
+ }
+ .footer-main-right .footer-right1 li {
+    /* border: 1px solid #000; */
+    margin: 30px;
+    padding-bottom: 20px;
+ }
+
+
+/* footer-bottom */
+.footer-bottom {
+    /* border: 4px solid pink; */
+    color: #838383;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-bottom p {
+    /* border: 1px solid #000; */
+    padding-right: 20px;
+}
+.footer-bottom img {
+    width: 7%;
+}
