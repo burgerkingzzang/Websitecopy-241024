@@ -15,7 +15,7 @@ a{
 
 body{
   margin: 0;
-height: 2000px;
+
 }
 h1,h2,h3,h4,h5,h6{
   margin: 0;
@@ -30,7 +30,9 @@ ul, li{
 }
 /* 위쪽 css 초기 reset css */
 
+header{
 
+}
 
 header .top-title {
 
@@ -39,8 +41,9 @@ header .top-title {
   
 }
 header .top-title-banner{
-    width: 90%;
-    margin-left: 10px;
+    
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 5px;
 
   }
@@ -50,25 +53,27 @@ header .middle-title {
   background: #fff;
 
 }
-/* 2-1 */
-header .middle-title-nav{
 
-  
-} 
 header .middle-title-nav ul{
   display: flex;
   justify-content: right;
+  width: 82%;
+  
+
     
 }
 
 header .middle-title-nav li{
   display: flex;
   height: 20px;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: 15px;
   margin-right: 10px;
   padding-right: 5px;
   border-right: 1px solid gray;
   align-items: center;
-  
+  cursor: pointer;
 
 }
 header .middle-title-nav li i{
@@ -80,6 +85,9 @@ header .middle-title-nav li.border-n{
 /* 2-2 */
 header section.head-in{
   display: flex;
+  width: 80%;
+  margin: 0 auto;
+  
 } 
 header section.head-in nav.middle-title-logo{
   flex:1;
@@ -89,78 +97,93 @@ header section.head-in nav.middle-title-logo{
 header section.head-in nav.middle-title-search{
   flex:1;
   display: flex;
-  justify-content: right;
-  margin-right: 20px;
+  justify-content: center;
+  
+  
 
 }
 header section.head-in nav.middle-title-search .merge{
-  width: 50%;
-
+  width: 30%;
   display: flex;
   position: relative;
+  align-items: center;
   }
 header section.head-in nav.middle-title-search input{
-display: flex;
 width: 100%;
+height: 40px;
+display: flex;
 border-radius: 50px;
 border: 2px solid #246beb;
-font-size: 1.1rem;
+outline: #246beb;
+padding: 10px;
+
 
 } 
+header section.head-in nav.middle-title-search input:focus {
+  border: 4px solid #246beb;
+  outline: #246beb;
+}
+
 
 header section.head-in nav.middle-title-search .merge i{
   font-size: 25px;
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 0;
   transform: translate(-50% ,-50%);
   
 }
 header section.head-in nav.middle-title-search .sign-in{
-
+  
+  margin-left: 20px;
   display: flex;
   align-items: center;
-  width: 28%;
-  justify-content: right;
+  width: 30%;
+  cursor: pointer;
 }
 header section.head-in nav.middle-title-search .sign-in li{
-font-size: 20px;
-margin-right: 10px;
+margin-right: 15px;
+font-size: 17px;
+font-weight: 700;
+
 }
 
 /* 3번째 헤더 */
 header .bottom-title{
 
-padding-bottom: 10px;
-border-top: 1px solid #000;
-margin:15px 0 15px 0;
+
+
+border-top: 1px solid #d8d8d8;
+
 padding-top: 20px;
 }
 header .bottom-title nav.gnb{
   background: #fff;
-  width: 100%;
-  
+  width: 80%;
+  margin: 0 auto;   
 }
 
 header .bottom-title nav.gnb ul{
   display: flex;
   align-items: center;
-
+  height: 100%;
 }
 header .bottom-title nav.gnb ul li{
   display: flex;
- 
-  font-size: 30px;
-  margin-right: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 50px;
   color: #555555;
   cursor: pointer;
+  padding-bottom: 20px;  
+ 
 }
 header .bottom-title nav.gnb ul li i{
   margin-left: 10px;
 }
 header .bottom-title nav.gnb ul li:hover{
   color: #003675;
-  border-bottom: 5px solid #003675
+ border-bottom: 4px solid #003675;
 }
 
 
@@ -197,16 +220,17 @@ main.main-container section.in{
     justify-content: center;
     border: none;
     cursor: pointer;
+    background: #fff;
 }
 .bigswipper .banner button.left{
   position: absolute;
-  left: 5%;
+  left: 15%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 .bigswipper .banner button.right{
   position: absolute;
-  right: 5%;
+  right: 10%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -316,7 +340,7 @@ nav.main-sector section.menu-swipper{
 
 }
 nav.main-sector section.menu-swipper a{
-  width: 160px;
+  width: 130px;
   margin: 0 10px 0 10px;
   background: #f3f3f6;
   border-radius: 10px;
@@ -359,14 +383,14 @@ nav.main-sector section.menu-swipper button{
 nav.main-sector section.menu-swipper button.left{
   position: absolute;
   top: 50%;
-  left: 100px;
+  left:15%;
   transform: translate(-50% ,-50%);
 }
 
 nav.main-sector section.menu-swipper button.right{
   position: absolute;
   top: 50%;
-  right: 50px;
+  right:13%;
   transform: translate(-50% ,-50%);
   
 }
@@ -476,6 +500,7 @@ footer div.main nav.footer-bottom ul{
 }
 footer div.main nav.footer-bottom ul li.underline{
   text-decoration: underline;
+  text-underline-position: below;
   color: #003675;
   font-weight: 700;
 }
