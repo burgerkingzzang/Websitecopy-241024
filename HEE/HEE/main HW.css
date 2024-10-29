@@ -1,0 +1,176 @@
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+ul,
+li {
+  /* list-style: none = ul의 동그라미 제거 */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* 위쪽 css 초기 reset css */
+
+/* 메인 큰 프레임 가로 100%지정 */
+main.main-container {
+  width: 100%;
+}
+
+
+nav.main-sector {
+  height: 300px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background: #f5f7fa;
+}
+.main-container section.main-top{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;  
+  margin: 0 auto;
+
+}
+.main-container section.main-top p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.main-container section.main-top ul{
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
+}
+.main-container section.main-top ul li{
+  margin-right: 20px;
+}
+.main-container section.main-top ul li:hover{
+ 
+  text-decoration: underline;
+  color: #333;
+}
+
+nav.main-sector section.menu-swipper {
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 30px;
+}
+nav.main-sector section.menu-swipper a {
+ 
+  width: 136px;
+  height: 140px;
+  margin: 0 10px 0 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+nav.main-sector section.menu-swipper a:hover{
+  border: 2px solid #009973;
+}
+nav.main-sector section.menu-swipper span {
+  
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  padding-top: 20px;
+ 
+}
+
+nav.main-sector section.menu-swipper span i {
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 15px;
+  text-align: center;
+  align-content: center;
+  background: #009973;;
+  color: #fff;
+}
+nav.main-sector section.menu-swipper a.application:hover{
+  border: 2px solid #ff3388;
+}
+nav.main-sector section.menu-swipper a.application i{
+  background: #ff3388;
+}
+nav.main-sector section.menu-swipper p {
+  width: 100%;
+  height: 70px;
+  font-size: 1.1rem;
+  padding-top: 40px;
+  text-align: center;
+}
+nav.main-sector section.menu-swipper button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  border: 1px solid #bcbcbc;
+  background: #fff;
+  cursor: pointer;
+}
+
+nav.main-sector section.menu-swipper button.left {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+nav.main-sector section.menu-swipper button.right {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+nav.main-sector section.menu-swipper section.bullet-box {
+  border: 1px solid blue;
+}
+nav.main-sector div.swipper-bullet {
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+nav.main-sector div.swipper-bullet span {
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  background: #000;
+  opacity: 0.2;
+  cursor: pointer;
+}
+nav.main-sector div.swipper-bullet span.dif {
+  width: 20px;
+  background: #003675;
+  opacity: 1;
+}

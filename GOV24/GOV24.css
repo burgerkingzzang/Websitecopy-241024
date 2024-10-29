@@ -1,5 +1,6 @@
 @import url(common.css);
 
+
 /* 1번째 헤더 */
 header {
   background: white;
@@ -64,7 +65,7 @@ header .main-title {
 .main-title .gnb {
   width: 75%;
   font-weight: 700;
-  }
+}
 
 .main-title .gnb li {
   margin: 0 20px;
@@ -93,7 +94,7 @@ header .main-title {
   justify-content: stretch;
   font-size: 25px;
 }
-.main-title .snb .icons .icon-bar{
+.main-title .snb .icons .icon-bar {
   justify-content: stretch;
   font-size: 25px;
 }
@@ -150,14 +151,10 @@ main .content .main-text .banner-container .search-container .search-pop {
   justify-content: space-around;
   text-decoration: underline;
 }
-main .content .main-text .banner-container .search-container .search-pop i{
+main .content .main-text .banner-container .search-container .search-pop i {
   margin-right: 20px;
-  
-  
-
 }
-#search{
-
+#search {
   width: 60%;
   position: relative;
 }
@@ -176,11 +173,8 @@ main .content .main-text .banner-container .search-container .search-pop i{
   z-index: 100;
   position: absolute;
   right: 15px;
-    top: 15px;
+  top: 15px;
 }
-
-
-
 
 main .content .main-text .login-container {
   border: 1px solid #e2e5eb;
