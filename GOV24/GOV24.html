@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOV24-WebsiteCopy</title>
 
-    <link rel="stylesheet" href="GOV24.css">
-    <link rel="stylesheet" href="GOV_footer.css">
-    
+    <link rel="stylesheet" href="GOV24.css" />
+    <link rel="stylesheet" href="GOV_footer.css" />
   </head>
   <body>
     <header>
@@ -83,14 +82,21 @@
             <!-- 메인 영역 1-1번 박스(짱큰그림) -->
             <nav class="search-container">
               <p class="search-title">자주 찾는 검색</p>
-              <p class="search-pop">
-                주민등록등본<i class="fas fa-chevron-down"></i>
-              </p>
-              <input
-                class="search-input"
-                type="text"
-                placeholder="찾으시는 서비스를 입력하세요"
-              /><i class="fal fa-search"></i>
+              <div class="search-pop">
+                3.주민등록등본<i class="fas fa-chevron-down"></i>
+              </div>
+              <!-- *********** -->
+              <!-- 주민등록 왼쪽에 3이랑 언더라인/translate해야함 -->
+              <!-- ********** -->
+
+              <div id="search">
+                <input
+                  class="search-input"
+                  type="text"
+                  placeholder="찾으시는 서비스를 입력하세요"
+                />
+                <div class="i-bar"><i class="fas fa-search"></i></div>
+              </div>
             </nav>
             <!-- 메인 영역 1-2번 박스(검색내용) -->
           </div>
@@ -196,10 +202,10 @@
           <!-- 오른쪽 기타 링크 -->
           <div class="footer-main-right">
             <ul class="footer-right1">
-              <li><a href="#">찾아오시는길</a></li>
-              <li><a href="#">상담예약</a></li>
-              <li><a href="#">누리집 개선의견수렴</a></li>
-              <li><a href="#">공공서비스 활용(open API)</a></li>
+              <li><a href="#">찾아오시는길</a><i class="fas fa-greater-than"></i></li>
+              <li><a href="#">상담예약</a><i class="fas fa-greater-than"></i></li>
+              <li><a href="#">누리집 개선의견수렴</a><i class="fas fa-greater-than"></i></li>
+              <li><a href="#">공공서비스 활용(open API)</a><i class="fas fa-greater-than"></i></li>
             </ul>
           </div>
         </div>
