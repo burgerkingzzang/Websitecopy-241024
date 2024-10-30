@@ -26,6 +26,7 @@ header .title div {
 
 header .title nav {
   padding-right: 25px;
+  cursor: pointer;
 }
 
 header .title nav span {
